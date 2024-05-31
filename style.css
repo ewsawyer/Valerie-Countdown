@@ -1,0 +1,58 @@
+:root {
+	--border-color: white;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html, body, main, .border {
+	height: 100%;
+}
+
+body {
+	padding: 10px;
+	background-color: rgb(42, 106, 65);
+	font-family: "Bacasime Antique";
+}
+
+.border {
+	border: 2px solid var(--border-color);
+	padding: 10px;
+}
+
+main {
+	font-size: 1.5em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid white;
+}
+
+#countdown {
+	text-align: center;
+	color: white;
+}
+
+#countdown > * {
+	margin: 10px;
+}
+
+#img-container {
+	margin-top: 3vh;
+	width: 95%;
+	height: 55vh;
+	
+	/* how did i never figure this out earlier? */
+	background-image: none;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+
+#countdown > p {
+	font-size: 1.2rem;
+}
