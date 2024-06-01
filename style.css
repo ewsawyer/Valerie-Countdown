@@ -30,11 +30,11 @@ main {
 	justify-content: center;
 	align-items: center;
 	border: 2px solid white;
+	color: white;
 }
 
 #countdown {
 	text-align: center;
-	color: white;
 }
 
 #countdown > * {
@@ -43,6 +43,7 @@ main {
 
 #img-container {
 	margin-top: 3vh;
+	margin-bottom: 3vh;
 	width: 95%;
 	height: 55vh;
 	
