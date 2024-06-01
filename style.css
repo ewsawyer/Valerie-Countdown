@@ -29,8 +29,8 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border: 2px solid white;
 	color: white;
+	border: 2px solid white;
 }
 
 #countdown {
